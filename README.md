@@ -2,20 +2,8 @@
 
 An interactive and visually stunning 3D developer portfolio website built with React, Three.js, and modern web tools. This project showcases my skills, projects, and contact information through an immersive 3D experience.
 
-📂 Project Structure
-3d-portfolio/
-├── public/           # Static assets
-├── src/
-│   ├── assets/       # Images, models, and textures
-│   ├── components/   # Reusable React components
-│   ├── hoc/          # Higher Order Components
-│   ├── styles/       # Tailwind styles
-│   ├── App.jsx       # Main application file
-│   └── index.js      # Entry point
-├── package.json
-└── README.md
 
-🛠️ Tech Stack
+# Tech Stack
 
 Frontend: HTML, CSS, Javascript, React, TailwindCSS, Framer Motion
 
