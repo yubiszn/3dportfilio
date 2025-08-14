@@ -22,8 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import jpmorgan from "./company/jpmorgan.png";
+import palm_tree from "./company/palm_tree.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -53,8 +53,8 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
+  palm_tree,
+  jpmorgan,
   tesla,
   carrent,
   jobit,

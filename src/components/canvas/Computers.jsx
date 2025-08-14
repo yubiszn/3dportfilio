@@ -1,21 +1,14 @@
 import React, { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF, Html } from "@react-three/drei";
-
-
-const CanvasLoader = () => (
-  <Html center>
-    <div style={{ color: "white" }}>Loading 3D Model...</div>
-  </Html>
-);
-
+import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile, tiltX }) => {
   const computer = useGLTF("/desktop_pc/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={1} groundColor="black" />
+      <hemisphereLight intensity={3} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
