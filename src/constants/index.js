@@ -3,26 +3,24 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
+  c,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
+  html,
+  java,
+  javascript,
   mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  jpmorgan,
-  tesla,
+  mui,
+  mysql,
+  nodejs,
+  python,
+  reactjs,
+  springboot,
+  tailwind,
+  typescript,
   palm_tree,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  paradiseweb,
+  llmcweb,
+  yubimovies,
 } from "../assets";
 
 export const navLinks = [
@@ -81,10 +79,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -97,20 +91,28 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "C",
+    icon: c,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "MUI",
+    icon: mui,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+   {
+    name: "Spring Boot",
+    icon: springboot,
   },
 ];
 
@@ -197,67 +199,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Paradise",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built a responsive e-commerce platform with product browsing, cart, Stripe checkout, JWT auth, bcrypt, AWS S3, MongoDB, admin dashboards, and Vercel/Render deployment.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "AWS-S3",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: paradiseweb,
+    source_code_link: "https://github.com/yubiszn/Paradise",
   },
   {
-    name: "Job IT",
+    name: "LLMC Alumni Directory",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Won 2024 JPMorgan Chase Hackathon with a full-stack platform for LMCC. Built MongoDB/Express/React/Node features: interactive feed, jobs, events, alumni, boosting engagement 30%.",
     tags: [
       {
-        name: "react",
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: llmcweb,
+    source_code_link: "https://github.com/yubiszn/cfg-jpmorgan-team16",
   },
   {
-    name: "Trip Guide",
+    name: "Yubi Movies",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built Yubi Movies, a Flutter/Dart mobile app using OMDb API to browse and search movies. Features watchlists, ratings, and real-time movie info updates.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Dart",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "OmDb Api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: yubimovies,
+    source_code_link: "https://github.com/yubiszn/yubi-movies",
   },
 ];
 
