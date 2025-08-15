@@ -20,9 +20,9 @@ const Hero = () => {
             Hi, I'm <span className='text-blue-500'>Ayub</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            As a passionate software developer in Columbus, Ohio,<br className='sm:block hidden' />
-            I build full-stack web applications and interactive user experiences.<br className='sm:block hidden' />
-            I create scalable, high-impact solutions from eCommerce platforms to award winning projects using React, Node.js, Spring Boot, and MongoDB.
+            As a software developer in Columbus, Ohio,<br className='sm:block hidden' /> I design full-stack applications and interactive experiences,<br className='sm:block hidden' />
+creating scalable, high-impact solutions that drive results.
+
           </p>
         </div>
       </div>
